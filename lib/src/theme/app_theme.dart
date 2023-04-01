@@ -6,14 +6,14 @@ import 'app_text_theme.dart';
 
 class AppTheme {
   static final ThemeData lightTheme = ThemeData(
-      useMaterial3: true,
       colorScheme: lightColorScheme,
       textTheme: appTextTheme,
+      elevatedButtonTheme: lightElevatedButtonTheme,
       fontFamily: "Roboto");
 
   static final ThemeData darkTheme = ThemeData(
-      useMaterial3: true,
       colorScheme: darkColorScheme,
       textTheme: appTextTheme,
+      elevatedButtonTheme: darkElevatedButtonTheme,
       fontFamily: 'ZCOOL');
 }
